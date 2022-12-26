@@ -1,0 +1,218 @@
+  /*fine reset*/
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*fine reset*/
+
+body{
+  
+    background-color: #f5f5f5; /*questi sono appunti*/
+    font-family: Poppins, Inter, Raleway;
+}           
+
+.container{  
+    background-color: rgb(255, 255, 255);
+    width: 1440x;
+    height: auto ;
+    margin: 0px auto;
+}
+
+h1{
+  font-weight: 600;
+  color:white;
+  font-size: 64px;
+
+}
+h2,p{
+  font-size: 18px;
+  font-weight:normal;
+  color:white;
+}
+
+
+.logo{  /*inizio navigazione*/
+width: 40px;
+}
+
+ul{
+  font-size: 18px;
+  display: flex;
+  gap: 50px;
+
+
+}
+
+.link-nav{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.link-nav:hover{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #3F86DB;
+}
+
+.tasto-accedi{ /*fine navigazione*/
+  padding: 15px 30px;
+  background-color: #f5f5f5;
+  color: #1E1E1E;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+
+
+
+.flex-benvenuto{ /*inizio benvenuto*/
+   background: rgb(63,134,219);
+   background: linear-gradient(180deg, rgba(63,134,219,1) 0%, rgba(44,168,235,1) 100%); 
+   width: auto;
+   height: 870px;
+   padding: 150px 100px 0px 100px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+  }
+
+
+  .sotto-headline{
+    padding-top: 20px;
+    margin-bottom: 40px ;
+  }
+
+  .tasti-benvenuto{
+    display: flex;
+    }
+
+  .tasto-accedi-benvenuto{
+     color: #1E1E1E;
+     font-size: 20px;
+     text-decoration: none;
+     background-color: white;
+     padding: 15px 30px;
+     border-radius: 50px;
+     font-weight: 600;
+  }
+
+  .tasto-accedi-benvenuto:hover{
+    font-size: 22px;
+    font-weight: bold;
+
+  }
+
+    .tasto-regolamento-benvenuto{
+     color: white;
+     font-size: 20px;
+     text-decoration: none;
+     padding: 15px 30px;
+     border-radius: 50px;
+     font-weight: 600;
+  }
+
+.drago-elettrico{
+  width: 520px;
+}
+
+.benvenuto{ /*fine benvenuto*/
+  margin-right: 100px;
+}
+
+
+
+
+.leggi-regolamento{ /*inizio leggi il regolamento*/
+  background: white;
+  width: auto;
+  height: 512px;
+  padding: 150px 100px 0px 100px;
+  display: flex;
+}
+
+.head-leggi-regolamento{
+  color: #1E1E1E;
+}
+
+.sotto-head-leggi-regolamento{
+  padding-top: 20px;
+  margin-bottom: 40px ;
+  color: #878787;
+}
+
+.tasto-accedi-leggi-regolamento{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #3E7CFA;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.tasto-regolamento-leggi-regolamento{
+  color:#3E7CFA;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.stregone{ /*fine leggi il regolamento*/
+  padding-left: 100px;
+  width: 600px;
+} 
+
+
+
+.lo-stemma{ /*inizio cos'è lo stemma?*/
+  background: rgb(63,134,219);
+  background: linear-gradient(180deg, rgba(63,134,219,1) 0%, rgba(44,168,235,1) 100%); 
+  width: auto;
+  height: 1024px;
+  padding: 150px 100px 0px 100px;
+} 
+
+.p-lo-stemma{
+  padding: 30px 450px;
+  color: #BEE8FF;
+}
+
+.head-lo-stemma{
+  text-align: center;
+}
+
